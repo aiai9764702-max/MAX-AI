@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "80167754443",
+    "project_id": "max-ai-b2bb1",
+    "storage_bucket": "max-ai-b2bb1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80167754443:android:1b8488d63154bdd152d94e",
+        "android_client_info": {
+          "package_name": "com.maxai.assistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGD6G9S22OCfh2CBMPStAKkBh-NOYAS0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
