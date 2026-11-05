@@ -135,7 +135,7 @@ class MainActivity : Activity(), TextToSpeech.OnInitListener {
                 status.text = "MAX: $answer"
                 speak(answer)
             } catch (e: Exception) {
-                status.text = "GEMINI CONNECTION ERROR"
+                status.text = "ERROR: " + e.javaClass.simpleName + ": " + (e.message ?: "No details")
                 Log.e("MAX", "Gemini request failed", e)
             }
         }
