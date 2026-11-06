@@ -37,7 +37,7 @@ class MainActivity : Activity(), TextToSpeech.OnInitListener {
     private val activityScope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
     private val model by lazy {
         Firebase.ai(backend = GenerativeBackend.googleAI())
-            .generativeModel("gemini-3.8-flash")
+            .generativeModel("gemini-3.1-flash-lite")
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
